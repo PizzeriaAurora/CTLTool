@@ -4,7 +4,7 @@
 
 ---
 
-## Abstract
+### Abstract
 
 In software and systems engineering, formal verification is crucial
 for ensuring that system designs adhere to their specifications. As
@@ -31,6 +31,7 @@ and accelerate verification processes by a factor of up to 30 times,
 showcasing its practical potential in optimising verification work-
 flows and guiding requirements engineering towards identifying
 the minimal required set of temporal properties.
+
 ---
 
 ##  Features
@@ -42,7 +43,7 @@ the minimal required set of temporal properties.
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
