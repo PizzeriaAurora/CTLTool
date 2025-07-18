@@ -1,0 +1,4 @@
+states,transitions,atomic_props,base_props,refined_props,num_classes,chain_states,bit_width
+5000,4000,40,5,1,10,10,10
+5000,4000,40,5,1,10,10,10
+5000,4000,40,5,1,10,10,10

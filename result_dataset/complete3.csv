@@ -1,0 +1,11 @@
+,TestName,TotalNumberOfProperties,SizeMinimalSet,time
+0,SharedMemory-PT-000200-CTLCardinality-00,400,200,1131.6555
+1,HexagonalGrid-PT-816-CTLCardinality-00,432,219,1383.8946
+2,FlexibleBarrier-PT-22b-CTLCardinality-00,464,234,1585.8075
+3,HouseConstruction-PT-32000-CTLCardinality-00,480,247,1765.3817
+4,SmartHome-PT-19-CTLCardinality-00,448,227,1521.6268
+5,SemanticWebServices-PT-S256P18-CTLCardinality-00,304,164,560.6779
+6,IBM703-PT-none-CTLCardinality-00,272,147,415.5377
+7,DNAwalker-PT-18lozangeBlock-CTLCardinality-00,288,159,466.7221
+8,CANConstruction-PT-100-CTLCardinality-00,320,178,617.3683
+9,SatelliteMemory-PT-X03000Y0094-CTLCardinality-00,336,174,730.5073

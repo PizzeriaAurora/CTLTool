@@ -1,0 +1,6 @@
+AG (request -> AF[0,100000](response))
+AG (request -> response)
+AG temp_ok
+AG temp_ok
+AG pressure_ok
+AF temp_ok

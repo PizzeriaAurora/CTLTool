@@ -1,0 +1,53 @@
+MODULE main
+VAR
+	chain_pos: 0..1;
+	b0: boolean;
+ASSIGN
+	init(chain_pos) := 0;
+	init(b0) := FALSE;
+	next(b0) := !b0;
+	next(chain_pos) := case
+		(chain_pos = 0) & (b0) : 1;
+		(chain_pos = 1) & (!b0) : 0;
+		TRUE : chain_pos;
+	esac;
+DEFINE
+	p_0 := (b0);
+	p_1 := (chain_pos = 0) & (!b0);
+	p_2 := (chain_pos = 0) & ((b0 & !b0));
+	p_3 := (chain_pos = 1) & ((b0 | !b0));
+	p_4 := (chain_pos = 1) & ((b0 & !b0));
+	p_5 := (chain_pos = 1);
+	p_6 := (!b0);
+	p_7 := (chain_pos = 0) & (b0);
+	p_8 := (b0);
+	p_9 := (chain_pos = 0);
+	p_10 := (chain_pos = 0) & ((b0 & !b0));
+	p_11 := (chain_pos = 1) & ((b0 | !b0));
+	p_12 := (chain_pos = 1);
+	p_13 := (chain_pos = 1) & (!b0);
+	p_14 := (chain_pos = 1) & (b0);
+	p_15 := (chain_pos = 1);
+	p_16 := (chain_pos = 1) & ((b0 & !b0));
+	p_17 := (chain_pos = 1);
+	p_18 := (chain_pos = 0) & ((b0 | !b0));
+	p_19 := (chain_pos = 0) & ((b0 | !b0));
+	p_20 := (chain_pos = 1) & (!b0);
+	p_21 := (chain_pos = 0) & ((b0 | !b0));
+	p_22 := (chain_pos = 1) & (!b0);
+	p_23 := (chain_pos = 0);
+	p_24 := (!b0);
+	p_25 := (chain_pos = 0) & ((b0 | !b0));
+	p_26 := (chain_pos = 0) & ((b0 & !b0));
+	p_27 := (chain_pos = 0);
+	p_28 := (chain_pos = 1);
+	p_29 := (chain_pos = 1) & ((b0 & !b0));
+	p_30 := (!b0);
+	p_31 := (chain_pos = 0);
+	p_32 := (chain_pos = 0);
+	p_33 := (chain_pos = 1) & ((b0 & !b0));
+	p_34 := (chain_pos = 0) & ((b0 | !b0));
+	p_35 := (chain_pos = 0) & (!b0);
+	p_36 := (chain_pos = 1);
+	p_37 := (chain_pos = 0) & (b0);
+	p_38 := (chain_pos = 0) & (!b0);

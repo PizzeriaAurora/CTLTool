@@ -1,0 +1,426 @@
+TCTL Refinement Analysis
+========================
+
+--- Equivalence Class 1 ---
+Properties in this class:
+  - '(AG p_24) -> (AF EF AF (EG AG !(p_0)))')
+  - '(AG p_24) -> (AF EF AF (EG AG !((p_0 | p_24))))')
+  - '(AG p_24) -> (AF EF AF (EG AG !(((p_0 | p_24) | p_24))))')
+  - '(AG p_24) -> (AF EF AF (EG AG !((((p_0 | p_21) | p_24) | p_24))))')
+  - '(AG p_24) -> (AF EF AF (EG AG !((((p_0 | (p_21 | p_24)) | p_24) | p_24))))')
+  - '(AG (p_24 | p_0)) -> (AF EF AF (EG AG !((((p_0 | (p_21 | p_24)) | p_24) | p_24))))')
+  - 'AG p_24')
+  - 'AG p_24')
+  - 'AG (p_24 | p_2)')
+  - 'AG (p_24 | p_2)')
+  - 'AG (p_24 | (p_2 | p_24))')
+  - 'AG ((p_24 | p_0) | (p_2 | p_24))')
+  - '(A(((!(p_21) | !(p_2)) | AF AF (EG p_21)) U (p_0 & p_21))) -> (A(((A((p_24 & p_2) U (p_2 | p_2)) | !(!(p_21))) | AG (EF p_24)) W (!(AG (EF p_24)) & AF EF p_24)))')
+  - '(A(((!(p_21) | !(p_2)) | AF AF (EG p_21)) U ((p_0 | p_21) & p_21))) -> (A(((A((p_24 & p_2) U (p_2 | p_2)) | !(!(p_21))) | AG (EF p_24)) W (!(AG (EF p_24)) & AF EF p_24)))')
+  - '(A(((!(p_21) | !(p_2)) | AF AF (EG p_21)) U ((p_0 | p_21) & p_21))) -> (A(((A((p_24 & p_2) U (p_2 | p_2)) | !(!(p_21))) | AG (EF p_24)) W (!(AG (EF p_24)) & AF EF p_24)))')
+  - '(A(((!(p_21) | !(p_2)) | AF AF (EG p_21)) U ((p_0 | p_21) & p_21))) -> (A(((A((p_24 & p_2) U (p_2 | p_2)) | !(!(p_21))) | AG (EF p_24)) W (!(AG (EF p_24)) & AF EF p_24)))')
+  - '(A(((!((p_21 | p_2)) | !(p_2)) | AF AF (EG p_21)) U ((p_0 | p_21) & p_21))) -> (A(((A((p_24 & p_2) U (p_2 | p_2)) | !(!(p_21))) | AG (EF p_24)) W (!(AG (EF p_24)) & AF EF p_24)))')
+  - '(A(((!((p_21 | p_2)) | !(p_2)) | AF AF (EG p_21)) U (((p_0 | p_24) | p_21) & p_21))) -> (A(((A((p_24 & p_2) U (p_2 | p_2)) | !(!(p_21))) | AG (EF p_24)) W (!(AG (EF p_24)) & AF EF p_24)))')
+
+
+ Not possible:Found Refinements (⇒ means 'refines'):
+  - '(A(((!((p_21 | p_2)) | !(p_2)) | AF AF (EG p_21)) U (((p_0 | p_24) | p_21) & p_21))) -> (A(((A((p_24 & p_2) U (p_2 | p_2)) | !(!(p_21))) | AG (EF p_24)) W (!(AG (EF p_24)) & AF EF p_24)))')  ⇒  '(AG p_24) -> (AF EF AF (EG AG !(p_0)))')
+  - '(A(((!((p_21 | p_2)) | !(p_2)) | AF AF (EG p_21)) U ((p_0 | p_21) & p_21))) -> (A(((A((p_24 & p_2) U (p_2 | p_2)) | !(!(p_21))) | AG (EF p_24)) W (!(AG (EF p_24)) & AF EF p_24)))')  ⇒  '(AG p_24) -> (AF EF AF (EG AG !(p_0)))')
+  - '(A(((!(p_21) | !(p_2)) | AF AF (EG p_21)) U ((p_0 | p_21) & p_21))) -> (A(((A((p_24 & p_2) U (p_2 | p_2)) | !(!(p_21))) | AG (EF p_24)) W (!(AG (EF p_24)) & AF EF p_24)))')  ⇒  '(AG p_24) -> (AF EF AF (EG AG !(p_0)))')
+  - '(A(((!(p_21) | !(p_2)) | AF AF (EG p_21)) U (p_0 & p_21))) -> (A(((A((p_24 & p_2) U (p_2 | p_2)) | !(!(p_21))) | AG (EF p_24)) W (!(AG (EF p_24)) & AF EF p_24)))')  ⇒  '(AG p_24) -> (AF EF AF (EG AG !(p_0)))')
+  - '(AG p_24) -> (AF EF AF (EG AG !((((p_0 | (p_21 | p_24)) | p_24) | p_24))))')  ⇒  '(AG (p_24 | p_0)) -> (AF EF AF (EG AG !((((p_0 | (p_21 | p_24)) | p_24) | p_24))))')
+  - '(AG p_24) -> (AF EF AF (EG AG !((((p_0 | p_21) | p_24) | p_24))))')  ⇒  '(AG p_24) -> (AF EF AF (EG AG !((((p_0 | (p_21 | p_24)) | p_24) | p_24))))')
+  - '(AG p_24) -> (AF EF AF (EG AG !(((p_0 | p_24) | p_24))))')  ⇒  '(AG p_24) -> (AF EF AF (EG AG !((((p_0 | p_21) | p_24) | p_24))))')
+  - '(AG p_24) -> (AF EF AF (EG AG !((p_0 | p_24))))')  ⇒  '(AG p_24) -> (AF EF AF (EG AG !(((p_0 | p_24) | p_24))))')
+  - '(AG p_24) -> (AF EF AF (EG AG !(p_0)))')  ⇒  '(AG p_24) -> (AF EF AF (EG AG !((p_0 | p_24))))')
+  - 'AG ((p_24 | p_0) | (p_2 | p_24))')  ⇒  '(AG p_24) -> (AF EF AF (EG AG !(p_0)))')
+  - 'AG (p_24 | (p_2 | p_24))')  ⇒  'AG ((p_24 | p_0) | (p_2 | p_24))')
+  - 'AG (p_24 | p_2)')  ⇒  'AG (p_24 | (p_2 | p_24))')
+  - 'AG p_24')  ⇒  'AG (p_24 | p_2)')
+
+Refinement graph saved to: result3/synOutput_001/refinmenet_results/benchmark_002/refinement_class__1.png
+
+
+--- Equivalence Class 2 ---
+Properties in this class:
+  - 'AF p_28')
+  - 'AF p_28')
+  - 'AF (p_28 | p_23)')
+  - 'AF (p_28 | (p_23 | p_22))')
+  - 'AF (p_28 | (p_23 | p_22))')
+  - 'AF (p_28 | (p_23 | (p_22 | p_23)))')
+  - 'AG(A((AG AF (EG p_9) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !(p_22)) & AF p_28) W (AF p_22 | AG (EF p_22))))')
+  - 'AG(A((AG AF (EG p_9) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')
+  - 'AG(A((AG AF (EG (p_9 | p_22)) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')
+  - 'AG(A((AG AF (EG (p_9 | p_22)) & p_9) W (AF (EG !((p_28 | p_22))) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')
+  - 'AG(A((AG AF (EG (p_9 | p_22)) & p_9) W (AF (EG !(((p_28 | p_9) | p_22))) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')
+  - 'AG(A((AG AF (EG ((p_9 | p_28) | p_22)) & p_9) W (AF (EG !(((p_28 | p_9) | p_22))) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')
+  - '(AG(p_23 -> AF p_28)) & (AG(p_28 -> p_9))')
+  - '(EF(p_23 -> AF p_28)) & (EF(p_28 -> p_9))')
+  - '(EF(p_23 -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')
+  - '(EF((p_23 | p_22) -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')
+  - '(EF((p_23 | p_22) -> AF (p_28 | p_22))) & (EF(p_28 -> (p_9 | p_28)))')
+  - '(EF((p_23 | (p_22 | p_23)) -> AF (p_28 | p_22))) & (EF(p_28 -> (p_9 | p_28)))')
+
+
+ Not possible:Found Refinements (⇒ means 'refines'):
+  - '(EF((p_23 | p_22) -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')  ⇒  '(EF((p_23 | (p_22 | p_23)) -> AF (p_28 | p_22))) & (EF(p_28 -> (p_9 | p_28)))')
+  - '(EF((p_23 | p_22) -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')  ⇒  '(EF((p_23 | p_22) -> AF (p_28 | p_22))) & (EF(p_28 -> (p_9 | p_28)))')
+  - '(EF(p_23 -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')  ⇒  '(EF((p_23 | p_22) -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')
+  - '(EF(p_23 -> AF p_28)) & (EF(p_28 -> p_9))')  ⇒  '(EF(p_23 -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')
+  - 'AF (p_28 | (p_23 | p_22))')  ⇒  'AF (p_28 | (p_23 | (p_22 | p_23)))')
+  - 'AF (p_28 | p_23)')  ⇒  'AF (p_28 | (p_23 | p_22))')
+  - 'AF p_28')  ⇒  'AF (p_28 | p_23)')
+  - 'AG(A((AG AF (EG ((p_9 | p_28) | p_22)) & p_9) W (AF (EG !(((p_28 | p_9) | p_22))) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')  ⇒  '(EF(p_23 -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')
+  - 'AG(A((AG AF (EG (p_9 | p_22)) & p_9) W (AF (EG !(((p_28 | p_9) | p_22))) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')  ⇒  '(EF(p_23 -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')
+  - 'AG(A((AG AF (EG (p_9 | p_22)) & p_9) W (AF (EG !((p_28 | p_22))) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')  ⇒  '(EF(p_23 -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')
+  - 'AG(A((AG AF (EG (p_9 | p_22)) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')  ⇒  '(EF(p_23 -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')
+  - 'AG(A((AG AF (EG p_9) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')  ⇒  '(EF(p_23 -> AF p_28)) & (EF(p_28 -> (p_9 | p_28)))')
+  - 'AG(A((AG AF (EG p_9) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !(p_22)) & AF p_28) W (AF p_22 | AG (EF p_22))))')  ⇒  'AG(A((AG AF (EG ((p_9 | p_28) | p_22)) & p_9) W (AF (EG !(((p_28 | p_9) | p_22))) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')
+  - 'AG(A((AG AF (EG p_9) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !(p_22)) & AF p_28) W (AF p_22 | AG (EF p_22))))')  ⇒  'AG(A((AG AF (EG (p_9 | p_22)) & p_9) W (AF (EG !(((p_28 | p_9) | p_22))) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')
+  - 'AG(A((AG AF (EG p_9) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !(p_22)) & AF p_28) W (AF p_22 | AG (EF p_22))))')  ⇒  'AG(A((AG AF (EG (p_9 | p_22)) & p_9) W (AF (EG !((p_28 | p_22))) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')
+  - 'AG(A((AG AF (EG p_9) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !(p_22)) & AF p_28) W (AF p_22 | AG (EF p_22))))')  ⇒  'AG(A((AG AF (EG (p_9 | p_22)) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')
+  - 'AG(A((AG AF (EG p_9) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !(p_22)) & AF p_28) W (AF p_22 | AG (EF p_22))))')  ⇒  'AG(A((AG AF (EG p_9) & p_9) W (AF (EG !(p_28)) & AG (EF !(p_28)))) -> AF A((AF (EG !((p_22 | p_9))) & AF p_28) W (AF p_22 | AG (EF p_22))))')
+
+Refinement graph saved to: result3/synOutput_001/refinmenet_results/benchmark_002/refinement_class__2.png
+
+
+--- Equivalence Class 3 ---
+Properties in this class:
+  - 'AG(p_13 -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')
+  - 'EF(p_13 -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')
+  - 'EF((p_13 | p_33) -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')
+  - 'EF((p_13 | (p_33 | p_13)) -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')
+  - 'EF((p_13 | ((p_33 | p_5) | p_13)) -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')
+  - 'EF(((p_13 | p_3) | ((p_33 | p_5) | p_13)) -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')
+  - 'AG(AF (EG !(A((p_5 | p_3) W (p_5 | p_13)))) -> EG !(AG AG (EF !(p_3))))')
+  - 'AG(AF (EG !(A((p_5 | p_3) W (p_5 | (p_13 | p_33))))) -> EG !(AG AG (EF !(p_3))))')
+  - 'AG(AF (EG !(A((p_5 | p_3) W (p_5 | (p_13 | (p_33 | p_3)))))) -> EG !(AG AG (EF !(p_3))))')
+  - 'AG(AF (EG !(A((p_5 | p_3) W (p_5 | ((p_13 | p_3) | (p_33 | p_3)))))) -> EG !(AG AG (EF !(p_3))))')
+  - 'AG(AF (EG !(A((p_5 | (p_3 | p_13)) W (p_5 | ((p_13 | p_3) | (p_33 | p_3)))))) -> EG !(AG AG (EF !(p_3))))')
+  - 'AG(AF (EG !(A((p_5 | (p_3 | p_13)) W (p_5 | ((p_13 | p_3) | ((p_33 | p_3) | p_3)))))) -> EG !(AG AG (EF !(p_3))))')
+  - 'AF p_5')
+  - 'AF (p_5 | p_33)')
+  - 'AF (p_5 | (p_33 | p_3))')
+  - 'AF (p_5 | (p_33 | p_3))')
+  - 'AF ((p_5 | p_13) | (p_33 | p_3))')
+  - 'AF ((p_5 | p_13) | (p_33 | (p_3 | p_5)))')
+
+
+ Not possible:Found Refinements (⇒ means 'refines'):
+  - 'AF ((p_5 | p_13) | (p_33 | p_3))')  ⇒  'AF ((p_5 | p_13) | (p_33 | (p_3 | p_5)))')
+  - 'AF (p_5 | (p_33 | p_3))')  ⇒  'AF ((p_5 | p_13) | (p_33 | p_3))')
+  - 'AF (p_5 | p_33)')  ⇒  'AF (p_5 | (p_33 | p_3))')
+  - 'AF p_5')  ⇒  'AF (p_5 | p_33)')
+  - 'AG(AF (EG !(A((p_5 | (p_3 | p_13)) W (p_5 | ((p_13 | p_3) | ((p_33 | p_3) | p_3)))))) -> EG !(AG AG (EF !(p_3))))')  ⇒  'AF (p_5 | (p_33 | p_3))')
+  - 'AG(AF (EG !(A((p_5 | (p_3 | p_13)) W (p_5 | ((p_13 | p_3) | (p_33 | p_3)))))) -> EG !(AG AG (EF !(p_3))))')  ⇒  'AG(AF (EG !(A((p_5 | (p_3 | p_13)) W (p_5 | ((p_13 | p_3) | ((p_33 | p_3) | p_3)))))) -> EG !(AG AG (EF !(p_3))))')
+  - 'AG(AF (EG !(A((p_5 | p_3) W (p_5 | ((p_13 | p_3) | (p_33 | p_3)))))) -> EG !(AG AG (EF !(p_3))))')  ⇒  'AG(AF (EG !(A((p_5 | (p_3 | p_13)) W (p_5 | ((p_13 | p_3) | (p_33 | p_3)))))) -> EG !(AG AG (EF !(p_3))))')
+  - 'AG(AF (EG !(A((p_5 | p_3) W (p_5 | (p_13 | (p_33 | p_3)))))) -> EG !(AG AG (EF !(p_3))))')  ⇒  'AG(AF (EG !(A((p_5 | p_3) W (p_5 | ((p_13 | p_3) | (p_33 | p_3)))))) -> EG !(AG AG (EF !(p_3))))')
+  - 'AG(AF (EG !(A((p_5 | p_3) W (p_5 | (p_13 | p_33))))) -> EG !(AG AG (EF !(p_3))))')  ⇒  'AG(AF (EG !(A((p_5 | p_3) W (p_5 | (p_13 | (p_33 | p_3)))))) -> EG !(AG AG (EF !(p_3))))')
+  - 'AG(AF (EG !(A((p_5 | p_3) W (p_5 | p_13)))) -> EG !(AG AG (EF !(p_3))))')  ⇒  'AG(AF (EG !(A((p_5 | p_3) W (p_5 | (p_13 | p_33))))) -> EG !(AG AG (EF !(p_3))))')
+  - 'AG(p_13 -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')  ⇒  'EF(p_13 -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')
+  - 'EF((p_13 | ((p_33 | p_5) | p_13)) -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')  ⇒  'EF(((p_13 | p_3) | ((p_33 | p_5) | p_13)) -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')
+  - 'EF((p_13 | (p_33 | p_13)) -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')  ⇒  'EF((p_13 | ((p_33 | p_5) | p_13)) -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')
+  - 'EF((p_13 | p_33) -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')  ⇒  'EF((p_13 | (p_33 | p_13)) -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')
+  - 'EF(p_13 -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')  ⇒  'EF((p_13 | p_33) -> AF (EG A((!(p_33) | EF p_13) W (!(!(p_3)) | p_13))))')
+
+Refinement graph saved to: result3/synOutput_001/refinmenet_results/benchmark_002/refinement_class__3.png
+
+
+--- Equivalence Class 4 ---
+Properties in this class:
+  - 'AF p_17')
+  - 'AF (p_17 | p_31)')
+  - 'AF ((p_17 | p_29) | p_31)')
+  - 'AF ((p_17 | p_29) | (p_31 | p_17))')
+  - 'AF ((p_17 | (p_29 | p_32)) | (p_31 | p_17))')
+  - 'AF ((p_17 | ((p_29 | p_32) | p_32)) | (p_31 | p_17))')
+  - 'AF p_29')
+  - 'AF (p_29 | p_17)')
+  - 'AF (p_29 | (p_17 | p_31))')
+  - 'AF (p_29 | ((p_17 | p_32) | p_31))')
+  - 'AF (p_29 | ((p_17 | p_32) | p_31))')
+  - 'AF (p_29 | (((p_17 | p_29) | p_32) | p_31))')
+  - '(AF (EG AG (EF !(AG p_17)))) -> (AF (EG AG (EF EF EF !(p_32))))')
+  - '(AF (EG AG (EF !(AG (p_17 | p_31))))) -> (AF (EG AG (EF EF EF !(p_32))))')
+  - '(AF (EG AG (EF !(AG (p_17 | (p_31 | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')
+  - '(AF (EG AG (EF !(AG ((p_17 | p_32) | (p_31 | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')
+  - '(AF (EG AG (EF !(AG (((p_17 | p_29) | p_32) | (p_31 | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')
+  - '(AF (EG AG (EF !(AG (((p_17 | p_29) | p_32) | ((p_31 | p_32) | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')
+
+
+ Not possible:Found Refinements (⇒ means 'refines'):
+  - '(AF (EG AG (EF !(AG (((p_17 | p_29) | p_32) | ((p_31 | p_32) | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')  ⇒  'AF ((p_17 | (p_29 | p_32)) | (p_31 | p_17))')
+  - '(AF (EG AG (EF !(AG (((p_17 | p_29) | p_32) | (p_31 | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')  ⇒  '(AF (EG AG (EF !(AG (((p_17 | p_29) | p_32) | ((p_31 | p_32) | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')
+  - '(AF (EG AG (EF !(AG ((p_17 | p_32) | (p_31 | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')  ⇒  '(AF (EG AG (EF !(AG (((p_17 | p_29) | p_32) | (p_31 | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')
+  - '(AF (EG AG (EF !(AG (p_17 | (p_31 | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')  ⇒  '(AF (EG AG (EF !(AG ((p_17 | p_32) | (p_31 | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')
+  - '(AF (EG AG (EF !(AG (p_17 | p_31))))) -> (AF (EG AG (EF EF EF !(p_32))))')  ⇒  '(AF (EG AG (EF !(AG (p_17 | (p_31 | p_32)))))) -> (AF (EG AG (EF EF EF !(p_32))))')
+  - '(AF (EG AG (EF !(AG (p_17 | p_31))))) -> (AF (EG AG (EF EF EF !(p_32))))')  ⇒  'AF (p_17 | p_31)')
+  - '(AF (EG AG (EF !(AG p_17)))) -> (AF (EG AG (EF EF EF !(p_32))))')  ⇒  '(AF (EG AG (EF !(AG (p_17 | p_31))))) -> (AF (EG AG (EF EF EF !(p_32))))')
+  - '(AF (EG AG (EF !(AG p_17)))) -> (AF (EG AG (EF EF EF !(p_32))))')  ⇒  'AF p_17')
+  - 'AF ((p_17 | ((p_29 | p_32) | p_32)) | (p_31 | p_17))')  ⇒  'AF (p_29 | ((p_17 | p_32) | p_31))')
+  - 'AF ((p_17 | (p_29 | p_32)) | (p_31 | p_17))')  ⇒  'AF ((p_17 | ((p_29 | p_32) | p_32)) | (p_31 | p_17))')
+  - 'AF ((p_17 | p_29) | (p_31 | p_17))')  ⇒  'AF (p_29 | (p_17 | p_31))')
+  - 'AF ((p_17 | p_29) | p_31)')  ⇒  'AF ((p_17 | p_29) | (p_31 | p_17))')
+  - 'AF (p_17 | p_31)')  ⇒  'AF ((p_17 | p_29) | p_31)')
+  - 'AF (p_29 | ((p_17 | p_32) | p_31))')  ⇒  'AF (p_29 | (((p_17 | p_29) | p_32) | p_31))')
+  - 'AF (p_29 | (p_17 | p_31))')  ⇒  'AF ((p_17 | (p_29 | p_32)) | (p_31 | p_17))')
+  - 'AF (p_29 | p_17)')  ⇒  'AF ((p_17 | p_29) | p_31)')
+  - 'AF p_17')  ⇒  'AF (p_17 | p_31)')
+  - 'AF p_17')  ⇒  'AF (p_29 | p_17)')
+  - 'AF p_29')  ⇒  'AF (p_29 | p_17)')
+
+Refinement graph saved to: result3/synOutput_001/refinmenet_results/benchmark_002/refinement_class__4.png
+
+
+--- Equivalence Class 5 ---
+Properties in this class:
+  - 'AG(p_8 -> AF p_7)')
+  - 'AG((p_8 | p_7) -> AF p_7)')
+  - 'AG(((p_8 | p_7) | p_7) -> AF p_7)')
+  - 'AG((((p_8 | p_7) | p_7) | p_7) -> AF p_7)')
+  - 'AG(((((p_8 | p_20) | p_7) | p_7) | p_7) -> AF p_7)')
+  - 'AG(((((p_8 | (p_20 | p_8)) | p_7) | p_7) | p_7) -> AF p_7)')
+  - '(EF AG A((p_7 & !(p_20)) W (!(p_20) & p_11))) -> (AF (EG !(!(p_8))))')
+  - '(EF AG A((p_7 & !(p_20)) W (!(p_20) & (p_11 | p_8)))) -> (AF (EG !(!(p_8))))')
+  - '(EF AG A((p_7 & !(p_20)) W (!(p_20) & ((p_11 | p_20) | p_8)))) -> (AF (EG !(!(p_8))))')
+  - '(EF AG A((p_7 & !(p_20)) W (!(p_20) & ((p_11 | p_20) | (p_8 | p_11))))) -> (AF (EG !(!(p_8))))')
+  - '(EF AG A(((p_7 | p_20) & !(p_20)) W (!(p_20) & ((p_11 | p_20) | (p_8 | p_11))))) -> (AF (EG !(!(p_8))))')
+  - '(EF AG A(((p_7 | p_20) & !(p_20)) W (!(p_20) & ((p_11 | p_20) | ((p_8 | p_7) | p_11))))) -> (AF (EG !(!(p_8))))')
+  - 'p_7')
+  - 'p_7')
+  - '(p_7 | p_20)')
+  - '(p_7 | (p_20 | p_7))')
+  - '((p_7 | p_8) | (p_20 | p_7))')
+  - '((p_7 | p_8) | ((p_20 | p_8) | p_7))')
+
+
+ Not possible:Found Refinements (⇒ means 'refines'):
+  - '((p_7 | p_8) | (p_20 | p_7))')  ⇒  '((p_7 | p_8) | ((p_20 | p_8) | p_7))')
+  - '(EF AG A(((p_7 | p_20) & !(p_20)) W (!(p_20) & ((p_11 | p_20) | (p_8 | p_11))))) -> (AF (EG !(!(p_8))))')  ⇒  '(EF AG A(((p_7 | p_20) & !(p_20)) W (!(p_20) & ((p_11 | p_20) | ((p_8 | p_7) | p_11))))) -> (AF (EG !(!(p_8))))')
+  - '(EF AG A((p_7 & !(p_20)) W (!(p_20) & ((p_11 | p_20) | (p_8 | p_11))))) -> (AF (EG !(!(p_8))))')  ⇒  '(EF AG A(((p_7 | p_20) & !(p_20)) W (!(p_20) & ((p_11 | p_20) | (p_8 | p_11))))) -> (AF (EG !(!(p_8))))')
+  - '(EF AG A((p_7 & !(p_20)) W (!(p_20) & ((p_11 | p_20) | p_8)))) -> (AF (EG !(!(p_8))))')  ⇒  '(EF AG A((p_7 & !(p_20)) W (!(p_20) & ((p_11 | p_20) | (p_8 | p_11))))) -> (AF (EG !(!(p_8))))')
+  - '(EF AG A((p_7 & !(p_20)) W (!(p_20) & (p_11 | p_8)))) -> (AF (EG !(!(p_8))))')  ⇒  '(EF AG A((p_7 & !(p_20)) W (!(p_20) & ((p_11 | p_20) | p_8)))) -> (AF (EG !(!(p_8))))')
+  - '(EF AG A((p_7 & !(p_20)) W (!(p_20) & p_11))) -> (AF (EG !(!(p_8))))')  ⇒  '(EF AG A((p_7 & !(p_20)) W (!(p_20) & (p_11 | p_8)))) -> (AF (EG !(!(p_8))))')
+  - '(p_7 | (p_20 | p_7))')  ⇒  '((p_7 | p_8) | (p_20 | p_7))')
+  - '(p_7 | p_20)')  ⇒  '(p_7 | (p_20 | p_7))')
+  - 'AG(((((p_8 | p_20) | p_7) | p_7) | p_7) -> AF p_7)')  ⇒  'AG(((((p_8 | (p_20 | p_8)) | p_7) | p_7) | p_7) -> AF p_7)')
+  - 'AG((((p_8 | p_7) | p_7) | p_7) -> AF p_7)')  ⇒  'AG(((((p_8 | p_20) | p_7) | p_7) | p_7) -> AF p_7)')
+  - 'AG(((p_8 | p_7) | p_7) -> AF p_7)')  ⇒  'AG((((p_8 | p_7) | p_7) | p_7) -> AF p_7)')
+  - 'AG((p_8 | p_7) -> AF p_7)')  ⇒  'AG(((p_8 | p_7) | p_7) -> AF p_7)')
+  - 'AG(p_8 -> AF p_7)')  ⇒  'AG((p_8 | p_7) -> AF p_7)')
+  - 'p_7')  ⇒  '(p_7 | p_20)')
+
+Refinement graph saved to: result3/synOutput_001/refinmenet_results/benchmark_002/refinement_class__5.png
+
+
+--- Equivalence Class 6 ---
+Properties in this class:
+  - '(EF EG AF (EG !(!(p_38)))) -> (AF EF AG (EF A((p_30 | p_15) U (p_30 & p_15))))')
+  - '(EF EG AF (EG !(!(p_38)))) -> (AF EF AG (EF A((p_30 | p_15) U (p_30 & p_15))))')
+  - '(EF EG AF (EG !(!((p_38 | p_30))))) -> (AF EF AG (EF A((p_30 | p_15) U (p_30 & p_15))))')
+  - '(EF EG AF (EG !(!((p_38 | p_30))))) -> (AF EF AG (EF A((p_30 | (p_15 | p_27)) U (p_30 & p_15))))')
+  - '(EF EG AF (EG !(!((p_38 | p_30))))) -> (AF EF AG (EF A((p_30 | (p_15 | (p_27 | p_38))) U (p_30 & p_15))))')
+  - '(EF EG AF (EG !(!((p_38 | (p_30 | p_38)))))) -> (AF EF AG (EF A((p_30 | (p_15 | (p_27 | p_38))) U (p_30 & p_15))))')
+  - '!(p_38 & p_38)')
+  - '!((p_38 | p_30) & p_38)')
+  - '!(((p_38 | p_27) | p_30) & p_38)')
+  - '!(((p_38 | (p_27 | p_38)) | p_30) & p_38)')
+  - '!(((p_38 | ((p_27 | p_15) | p_38)) | p_30) & p_38)')
+  - '!(((p_38 | (((p_27 | p_30) | p_15) | p_38)) | p_30) & p_38)')
+  - 'AG(p_30 -> EG A((EF p_27 | !(p_30)) W (EG p_38 | EG p_27)))')
+  - 'AG(p_30 -> EG A((EF (p_27 | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')
+  - 'AG(p_30 -> EG A((EF ((p_27 | p_15) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')
+  - 'AG(p_30 -> EG A((EF ((p_27 | (p_15 | p_30)) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')
+  - 'AG(p_30 -> EG A((EF (((p_27 | p_30) | (p_15 | p_30)) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')
+  - 'AG((p_30 | p_38) -> EG A((EF (((p_27 | p_30) | (p_15 | p_30)) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')
+
+
+ Not possible:Found Refinements (⇒ means 'refines'):
+  - '!(((p_38 | ((p_27 | p_15) | p_38)) | p_30) & p_38)')  ⇒  '!(((p_38 | (((p_27 | p_30) | p_15) | p_38)) | p_30) & p_38)')
+  - '!(((p_38 | (p_27 | p_38)) | p_30) & p_38)')  ⇒  '!(((p_38 | ((p_27 | p_15) | p_38)) | p_30) & p_38)')
+  - '!(((p_38 | p_27) | p_30) & p_38)')  ⇒  '!(((p_38 | (p_27 | p_38)) | p_30) & p_38)')
+  - '!((p_38 | p_30) & p_38)')  ⇒  '!(((p_38 | p_27) | p_30) & p_38)')
+  - '!(p_38 & p_38)')  ⇒  '!((p_38 | p_30) & p_38)')
+  - '(EF EG AF (EG !(!((p_38 | (p_30 | p_38)))))) -> (AF EF AG (EF A((p_30 | (p_15 | (p_27 | p_38))) U (p_30 & p_15))))')  ⇒  '!(p_38 & p_38)')
+  - '(EF EG AF (EG !(!((p_38 | p_30))))) -> (AF EF AG (EF A((p_30 | (p_15 | (p_27 | p_38))) U (p_30 & p_15))))')  ⇒  '(EF EG AF (EG !(!((p_38 | (p_30 | p_38)))))) -> (AF EF AG (EF A((p_30 | (p_15 | (p_27 | p_38))) U (p_30 & p_15))))')
+  - '(EF EG AF (EG !(!((p_38 | p_30))))) -> (AF EF AG (EF A((p_30 | (p_15 | p_27)) U (p_30 & p_15))))')  ⇒  '(EF EG AF (EG !(!((p_38 | p_30))))) -> (AF EF AG (EF A((p_30 | (p_15 | (p_27 | p_38))) U (p_30 & p_15))))')
+  - '(EF EG AF (EG !(!((p_38 | p_30))))) -> (AF EF AG (EF A((p_30 | p_15) U (p_30 & p_15))))')  ⇒  '(EF EG AF (EG !(!((p_38 | p_30))))) -> (AF EF AG (EF A((p_30 | (p_15 | p_27)) U (p_30 & p_15))))')
+  - '(EF EG AF (EG !(!(p_38)))) -> (AF EF AG (EF A((p_30 | p_15) U (p_30 & p_15))))')  ⇒  '(EF EG AF (EG !(!((p_38 | p_30))))) -> (AF EF AG (EF A((p_30 | p_15) U (p_30 & p_15))))')
+  - 'AG((p_30 | p_38) -> EG A((EF (((p_27 | p_30) | (p_15 | p_30)) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')  ⇒  '!(p_38 & p_38)')
+  - 'AG(p_30 -> EG A((EF (((p_27 | p_30) | (p_15 | p_30)) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')  ⇒  'AG((p_30 | p_38) -> EG A((EF (((p_27 | p_30) | (p_15 | p_30)) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')
+  - 'AG(p_30 -> EG A((EF ((p_27 | (p_15 | p_30)) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')  ⇒  'AG(p_30 -> EG A((EF (((p_27 | p_30) | (p_15 | p_30)) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')
+  - 'AG(p_30 -> EG A((EF ((p_27 | p_15) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')  ⇒  'AG(p_30 -> EG A((EF ((p_27 | (p_15 | p_30)) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')
+  - 'AG(p_30 -> EG A((EF (p_27 | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')  ⇒  'AG(p_30 -> EG A((EF ((p_27 | p_15) | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')
+  - 'AG(p_30 -> EG A((EF p_27 | !(p_30)) W (EG p_38 | EG p_27)))')  ⇒  'AG(p_30 -> EG A((EF (p_27 | p_38) | !(p_30)) W (EG p_38 | EG p_27)))')
+
+Refinement graph saved to: result3/synOutput_001/refinmenet_results/benchmark_002/refinement_class__6.png
+
+
+--- Equivalence Class 7 ---
+Properties in this class:
+  - '!(p_4 & p_4)')
+  - '!(p_4 & p_4)')
+  - '!((p_4 | p_10) & p_4)')
+  - '!((p_4 | (p_10 | p_36)) & p_4)')
+  - '!(((p_4 | p_25) | (p_10 | p_36)) & p_4)')
+  - '!(((p_4 | p_25) | ((p_10 | p_4) | p_36)) & p_4)')
+  - 'A( A((!(p_4) & !(p_25)) U (A((p_36 & p_36) W (p_25 & p_36)) | AF (EG p_4))) U ((AG p_4 | AF p_4) & !(AG (EF !(p_25)))) )')
+  - 'A( A((!(p_4) & !(p_25)) U (A((p_36 & p_36) W (p_25 & p_36)) | AF (EG p_4))) U ((AG p_4 | AF p_4) & !(AG (EF !(p_25)))) )')
+  - 'A( A((!(p_4) & !((p_25 | p_10))) U (A((p_36 & p_36) W (p_25 & p_36)) | AF (EG p_4))) U ((AG p_4 | AF p_4) & !(AG (EF !(p_25)))) )')
+  - 'A( A((!(p_4) & !((p_25 | p_10))) U (A((p_36 & p_36) W (p_25 & p_36)) | AF (EG p_4))) U ((AG p_4 | AF p_4) & !(AG (EF !(p_25)))) )')
+  - 'A( A((!(p_4) & !((p_25 | (p_10 | p_36)))) U (A((p_36 & p_36) W (p_25 & p_36)) | AF (EG p_4))) U ((AG p_4 | AF p_4) & !(AG (EF !(p_25)))) )')
+  - 'A( A((!(p_4) & !((p_25 | ((p_10 | p_36) | p_36)))) U (A((p_36 & p_36) W (p_25 & p_36)) | AF (EG p_4))) U ((AG p_4 | AF p_4) & !(AG (EF !(p_25)))) )')
+  - 'AG(EG AG AG (EF p_4) -> p_25)')
+  - 'AG(EG AG AG (EF (p_4 | p_25)) -> p_25)')
+  - 'EF(EG AG AG (EF (p_4 | p_25)) -> p_25)')
+  - 'EF(EG AG AG (EF (p_4 | p_25)) -> p_25)')
+  - 'EF(EG AG AG (EF (p_4 | p_25)) -> p_25)')
+  - 'EF(EG AG AG (EF (p_4 | p_25)) -> p_25)')
+
+
+ Not possible:Found Refinements (⇒ means 'refines'):
+  - '!(((p_4 | p_25) | (p_10 | p_36)) & p_4)')  ⇒  '!(((p_4 | p_25) | ((p_10 | p_4) | p_36)) & p_4)')
+  - '!((p_4 | (p_10 | p_36)) & p_4)')  ⇒  '!(((p_4 | p_25) | (p_10 | p_36)) & p_4)')
+  - '!((p_4 | p_10) & p_4)')  ⇒  '!((p_4 | (p_10 | p_36)) & p_4)')
+  - '!(p_4 & p_4)')  ⇒  '!((p_4 | p_10) & p_4)')
+  - 'A( A((!(p_4) & !((p_25 | ((p_10 | p_36) | p_36)))) U (A((p_36 & p_36) W (p_25 & p_36)) | AF (EG p_4))) U ((AG p_4 | AF p_4) & !(AG (EF !(p_25)))) )')  ⇒  'AG(EG AG AG (EF p_4) -> p_25)')
+  - 'A( A((!(p_4) & !((p_25 | (p_10 | p_36)))) U (A((p_36 & p_36) W (p_25 & p_36)) | AF (EG p_4))) U ((AG p_4 | AF p_4) & !(AG (EF !(p_25)))) )')  ⇒  'AG(EG AG AG (EF p_4) -> p_25)')
+  - 'A( A((!(p_4) & !((p_25 | p_10))) U (A((p_36 & p_36) W (p_25 & p_36)) | AF (EG p_4))) U ((AG p_4 | AF p_4) & !(AG (EF !(p_25)))) )')  ⇒  'AG(EG AG AG (EF p_4) -> p_25)')
+  - 'A( A((!(p_4) & !(p_25)) U (A((p_36 & p_36) W (p_25 & p_36)) | AF (EG p_4))) U ((AG p_4 | AF p_4) & !(AG (EF !(p_25)))) )')  ⇒  'AG(EG AG AG (EF p_4) -> p_25)')
+  - 'AG(EG AG AG (EF (p_4 | p_25)) -> p_25)')  ⇒  'EF(EG AG AG (EF (p_4 | p_25)) -> p_25)')
+  - 'AG(EG AG AG (EF p_4) -> p_25)')  ⇒  'AG(EG AG AG (EF (p_4 | p_25)) -> p_25)')
+  - 'EF(EG AG AG (EF (p_4 | p_25)) -> p_25)')  ⇒  '!(p_4 & p_4)')
+
+Refinement graph saved to: result3/synOutput_001/refinmenet_results/benchmark_002/refinement_class__7.png
+
+
+--- Equivalence Class 8 ---
+Properties in this class:
+  - '(AF p_35) & (AG((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> AF(EG EF EF !(p_16))))')
+  - '(AF p_35) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - '(AF (p_35 | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - '(AF ((p_35 | p_16) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - '(AF (((p_35 | p_37) | p_16) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - '(AF (((p_35 | p_37) | (p_16 | p_26)) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - 'AG(AG !(AF (EG A((p_37 & p_16) U (p_35 | p_26)))) -> AF (EG !(!(!(p_16)))))')
+  - 'AG(AG !(AF (EG A(((p_37 | p_26) & p_16) U (p_35 | p_26)))) -> AF (EG !(!(!(p_16)))))')
+  - 'EF(AG !(AF (EG A(((p_37 | p_26) & p_16) U (p_35 | p_26)))) -> AF (EG !(!(!(p_16)))))')
+  - 'EF(AG !(AF (EG A(((p_37 | p_26) & p_16) U ((p_35 | p_37) | p_26)))) -> AF (EG !(!(!(p_16)))))')
+  - 'EF(AG !(AF (EG A(((p_37 | (p_26 | p_37)) & p_16) U ((p_35 | p_37) | p_26)))) -> AF (EG !(!(!(p_16)))))')
+  - 'EF(AG !(AF (EG A(((p_37 | (p_26 | p_37)) & p_16) U (((p_35 | p_26) | p_37) | p_26)))) -> AF (EG !(!(!(p_16)))))')
+  - 'AG(p_16 -> AF p_35)')
+  - 'AG((p_16 | p_35) -> AF p_35)')
+  - 'EF((p_16 | p_35) -> AF p_35)')
+  - 'EF((p_16 | p_35) -> AF p_35)')
+  - 'EF((p_16 | p_35) -> AF p_35)')
+  - 'EF((p_16 | (p_35 | p_37)) -> AF p_35)')
+
+
+ Not possible:Found Refinements (⇒ means 'refines'):
+  - '(AF (((p_35 | p_37) | p_16) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')  ⇒  '(AF (((p_35 | p_37) | (p_16 | p_26)) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - '(AF ((p_35 | p_16) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')  ⇒  '(AF (((p_35 | p_37) | p_16) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - '(AF (p_35 | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')  ⇒  '(AF ((p_35 | p_16) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - '(AF p_35) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')  ⇒  '(AF (p_35 | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - '(AF p_35) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')  ⇒  'EF((p_16 | p_35) -> AF p_35)')
+  - 'AG((p_16 | p_35) -> AF p_35)')  ⇒  '(AF p_35) & (AG((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> AF(EG EF EF !(p_16))))')
+  - 'AG((p_16 | p_35) -> AF p_35)')  ⇒  '(AF p_35) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - 'AG(AG !(AF (EG A(((p_37 | p_26) & p_16) U (p_35 | p_26)))) -> AF (EG !(!(!(p_16)))))')  ⇒  'EF(AG !(AF (EG A(((p_37 | p_26) & p_16) U (p_35 | p_26)))) -> AF (EG !(!(!(p_16)))))')
+  - 'AG(AG !(AF (EG A((p_37 & p_16) U (p_35 | p_26)))) -> AF (EG !(!(!(p_16)))))')  ⇒  '(AF (((p_35 | p_37) | (p_16 | p_26)) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - 'AG(p_16 -> AF p_35)')  ⇒  'AG((p_16 | p_35) -> AF p_35)')
+  - 'EF((p_16 | p_35) -> AF p_35)')  ⇒  'EF((p_16 | (p_35 | p_37)) -> AF p_35)')
+  - 'EF(AG !(AF (EG A(((p_37 | (p_26 | p_37)) & p_16) U (((p_35 | p_26) | p_37) | p_26)))) -> AF (EG !(!(!(p_16)))))')  ⇒  '(AF (((p_35 | p_37) | (p_16 | p_26)) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - 'EF(AG !(AF (EG A(((p_37 | (p_26 | p_37)) & p_16) U ((p_35 | p_37) | p_26)))) -> AF (EG !(!(!(p_16)))))')  ⇒  '(AF (((p_35 | p_37) | (p_16 | p_26)) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - 'EF(AG !(AF (EG A(((p_37 | p_26) & p_16) U ((p_35 | p_37) | p_26)))) -> AF (EG !(!(!(p_16)))))')  ⇒  '(AF (((p_35 | p_37) | (p_16 | p_26)) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+  - 'EF(AG !(AF (EG A(((p_37 | p_26) & p_16) U (p_35 | p_26)))) -> AF (EG !(!(!(p_16)))))')  ⇒  '(AF (((p_35 | p_37) | (p_16 | p_26)) | p_37)) & (EF((A((EF p_37 | !(p_37)) W (!(!(p_37)) | AG (EF !(p_26))))) -> EF(EG EF EF !(p_16))))')
+
+Refinement graph saved to: result3/synOutput_001/refinmenet_results/benchmark_002/refinement_class__8.png
+
+
+--- Equivalence Class 9 ---
+Properties in this class:
+  - 'AG(AF A((EF !(p_19) & AF (EG p_39)) W (AF (EG p_12) & AG p_34)) -> AF (EG AG (EF !(AF p_39))))')
+  - 'AG(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG p_12) & AG p_34)) -> AF (EG AG (EF !(AF p_39))))')
+  - 'AG(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG p_12) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')
+  - 'AG(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG (p_12 | p_34)) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')
+  - 'EF(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG (p_12 | p_34)) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')
+  - 'EF(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG ((p_12 | p_34) | p_34)) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')
+  - 'AG p_39')
+  - 'AG (p_39 | p_34)')
+  - 'AG (p_39 | (p_34 | p_19))')
+  - 'AG ((p_39 | p_12) | (p_34 | p_19))')
+  - 'AG ((p_39 | (p_12 | p_34)) | (p_34 | p_19))')
+  - 'AG ((p_39 | (p_12 | p_34)) | (p_34 | (p_19 | p_34)))')
+  - 'AG p_12')
+  - 'AG (p_12 | p_34)')
+  - 'AG (p_12 | (p_34 | p_19))')
+  - 'AG (p_12 | ((p_34 | p_12) | p_19))')
+  - 'AG (p_12 | ((p_34 | p_12) | (p_19 | p_39)))')
+  - 'AG ((p_12 | p_34) | ((p_34 | p_12) | (p_19 | p_39)))')
+
+
+ Not possible:Found Refinements (⇒ means 'refines'):
+  - 'AG ((p_39 | (p_12 | p_34)) | (p_34 | (p_19 | p_34)))')  ⇒  'AG (p_12 | ((p_34 | p_12) | (p_19 | p_39)))')
+  - 'AG ((p_39 | (p_12 | p_34)) | (p_34 | p_19))')  ⇒  'AG ((p_39 | (p_12 | p_34)) | (p_34 | (p_19 | p_34)))')
+  - 'AG ((p_39 | p_12) | (p_34 | p_19))')  ⇒  'AG ((p_39 | (p_12 | p_34)) | (p_34 | p_19))')
+  - 'AG (p_12 | ((p_34 | p_12) | (p_19 | p_39)))')  ⇒  'AG ((p_12 | p_34) | ((p_34 | p_12) | (p_19 | p_39)))')
+  - 'AG (p_12 | ((p_34 | p_12) | p_19))')  ⇒  'AG ((p_39 | p_12) | (p_34 | p_19))')
+  - 'AG (p_12 | (p_34 | p_19))')  ⇒  'AG (p_12 | ((p_34 | p_12) | p_19))')
+  - 'AG (p_12 | p_34)')  ⇒  'AG (p_12 | (p_34 | p_19))')
+  - 'AG (p_39 | (p_34 | p_19))')  ⇒  'AG ((p_39 | p_12) | (p_34 | p_19))')
+  - 'AG (p_39 | p_34)')  ⇒  'AG (p_39 | (p_34 | p_19))')
+  - 'AG p_12')  ⇒  'AG (p_12 | p_34)')
+  - 'AG p_39')  ⇒  'AG (p_39 | p_34)')
+  - 'AG(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG (p_12 | p_34)) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')  ⇒  'EF(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG (p_12 | p_34)) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')
+  - 'AG(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG p_12) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')  ⇒  'AG(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG (p_12 | p_34)) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')
+  - 'AG(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG p_12) & AG p_34)) -> AF (EG AG (EF !(AF p_39))))')  ⇒  'AG(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG p_12) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')
+  - 'AG(AF A((EF !(p_19) & AF (EG p_39)) W (AF (EG p_12) & AG p_34)) -> AF (EG AG (EF !(AF p_39))))')  ⇒  'AG(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG p_12) & AG p_34)) -> AF (EG AG (EF !(AF p_39))))')
+  - 'EF(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG ((p_12 | p_34) | p_34)) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')  ⇒  'AG (p_12 | (p_34 | p_19))')
+  - 'EF(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG ((p_12 | p_34) | p_34)) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')  ⇒  'AG (p_39 | (p_34 | p_19))')
+  - 'EF(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG (p_12 | p_34)) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')  ⇒  'EF(AF A((EF !(p_19) & AF (EG (p_39 | p_19))) W (AF (EG ((p_12 | p_34) | p_34)) & AG (p_34 | p_39))) -> AF (EG AG (EF !(AF p_39))))')
+
+Refinement graph saved to: result3/synOutput_001/refinmenet_results/benchmark_002/refinement_class__9.png
+
+
+--- Equivalence Class 10 ---
+Properties in this class:
+  - '!(p_6 & p_1)')
+  - '!((p_6 | p_14) & p_1)')
+  - '!((p_6 | (p_14 | p_1)) & p_1)')
+  - '!(((p_6 | p_1) | (p_14 | p_1)) & p_1)')
+  - '!(((p_6 | p_1) | (p_14 | p_1)) & p_1)')
+  - '!(((p_6 | p_1) | (p_14 | p_1)) & p_1)')
+  - 'AG p_14')
+  - 'AG (p_14 | p_1)')
+  - 'AG ((p_14 | p_6) | p_1)')
+  - 'AG ((p_14 | (p_6 | p_14)) | p_1)')
+  - 'AG ((p_14 | ((p_6 | p_18) | p_14)) | p_1)')
+  - 'AG (((p_14 | p_6) | ((p_6 | p_18) | p_14)) | p_1)')
+  - 'A( A((A((p_18 & p_14) W (p_18 | p_1)) | AG p_18) W (AG !(p_6) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')
+  - 'A( A((A((p_18 & (p_14 | p_1)) W (p_18 | p_1)) | AG p_18) W (AG !(p_6) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')
+  - 'A( A((A((p_18 & (p_14 | p_1)) W (p_18 | p_1)) | AG p_18) W (AG !((p_6 | p_14)) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')
+  - 'A( A((A((p_18 & ((p_14 | p_6) | p_1)) W (p_18 | p_1)) | AG p_18) W (AG !((p_6 | p_14)) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')
+  - 'A( A((A((p_18 & (((p_14 | p_1) | p_6) | p_1)) W (p_18 | p_1)) | AG p_18) W (AG !((p_6 | p_14)) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')
+  - 'A( A((A((p_18 & (((p_14 | (p_1 | p_6)) | p_6) | p_1)) W (p_18 | p_1)) | AG p_18) W (AG !((p_6 | p_14)) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')
+
+
+ Not possible:Found Refinements (⇒ means 'refines'):
+  - '!((p_6 | (p_14 | p_1)) & p_1)')  ⇒  '!(((p_6 | p_1) | (p_14 | p_1)) & p_1)')
+  - '!((p_6 | p_14) & p_1)')  ⇒  '!((p_6 | (p_14 | p_1)) & p_1)')
+  - '!(p_6 & p_1)')  ⇒  '!((p_6 | p_14) & p_1)')
+  - 'A( A((A((p_18 & (((p_14 | (p_1 | p_6)) | p_6) | p_1)) W (p_18 | p_1)) | AG p_18) W (AG !((p_6 | p_14)) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')  ⇒  '!(p_6 & p_1)')
+  - 'A( A((A((p_18 & (((p_14 | p_1) | p_6) | p_1)) W (p_18 | p_1)) | AG p_18) W (AG !((p_6 | p_14)) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')  ⇒  '!(p_6 & p_1)')
+  - 'A( A((A((p_18 & ((p_14 | p_6) | p_1)) W (p_18 | p_1)) | AG p_18) W (AG !((p_6 | p_14)) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')  ⇒  '!(p_6 & p_1)')
+  - 'A( A((A((p_18 & (p_14 | p_1)) W (p_18 | p_1)) | AG p_18) W (AG !((p_6 | p_14)) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')  ⇒  '!(p_6 & p_1)')
+  - 'A( A((A((p_18 & (p_14 | p_1)) W (p_18 | p_1)) | AG p_18) W (AG !(p_6) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')  ⇒  '!(p_6 & p_1)')
+  - 'A( A((A((p_18 & p_14) W (p_18 | p_1)) | AG p_18) W (AG !(p_6) & AG (EF p_18))) U ((!(!(p_1)) & AG p_18) & EF A((p_1 | p_18) U (p_18 | p_1))) )')  ⇒  '!(p_6 & p_1)')
+  - 'AG (((p_14 | p_6) | ((p_6 | p_18) | p_14)) | p_1)')  ⇒  '!(p_6 & p_1)')
+  - 'AG ((p_14 | ((p_6 | p_18) | p_14)) | p_1)')  ⇒  'AG (((p_14 | p_6) | ((p_6 | p_18) | p_14)) | p_1)')
+  - 'AG ((p_14 | (p_6 | p_14)) | p_1)')  ⇒  'AG ((p_14 | ((p_6 | p_18) | p_14)) | p_1)')
+  - 'AG ((p_14 | p_6) | p_1)')  ⇒  'AG ((p_14 | (p_6 | p_14)) | p_1)')
+  - 'AG (p_14 | p_1)')  ⇒  'AG ((p_14 | p_6) | p_1)')
+  - 'AG p_14')  ⇒  'AG (p_14 | p_1)')
+
+Refinement graph saved to: result3/synOutput_001/refinmenet_results/benchmark_002/refinement_class__10.png
+
+

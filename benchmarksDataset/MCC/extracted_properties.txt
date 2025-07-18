@@ -1,0 +1,19 @@
+# CTL Properties extracted from MCC Benchmarks
+# Format: <Unique_Property_ID>: <Translated_CTL_String>
+
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-00: EF ((!(!(!(!((p0 | AF (p1)))))) & (EG (EF (p2)) | AF (A(false W (p3))))))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-01: !(!((AF (AF ((E(p4 U p5) & (p6 | p7)))) | !(E(p8 U (EF (p9) & ((p10 & p11) | (p12 | p13))))))))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-02: E((A(false W (p14)) | ((A(E(false W (p15)) U (E(p16 U p17) | (p18 & p19))) & AG (E(false W (p20)))) & !(A(E(false W (p21)) U !(p22))))) U ((EF (EG ((p23 & p24))) | ((!((!(p25) | p26)) | (A(p27 U p28) | AG (p29))) & (!(!(A(p30 U p31))) & !((EG (p32) & (p33 & p34)))))) | (((EF (EG (p35)) & !(!(EG (p36)))) & (EG (p37) | !((!(p38) | p39)))) & (!((E(false W (p40)) & !(p41))) | A(!(!(p42)) U ((p43 | p44) | (p45 & p46)))))))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-03: AG ((((p47 | (E(p48 U p49) | !(EF (p50)))) & (((E(p51 U p52) | ((p53 & p54) | !(p55))) | (EF (p56) & AF (p57))) | p58)) & A(A(((p59 & p60) | (p61 & p62)) U !(!(p63))) U (A(false W (AG (p64))) | AG ((p65 | p66))))))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-04: EG (AG (((!(!(E(false W (p67)))) & E((p68 & p69) U (p70 & p71))) | p72)))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-05: !((AG (E(p73 U AG (!(p74)))) | AG ((A(false W (!(AF (p75)))) & p76))))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-06: !(EG (p77))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-07: EG (AF (E(false W (A((p78 & p79) U (p80 | p81))))))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-08: AF (EF (EF (p82)))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-09: AF (E(false W ((!((!(A(p83 U p84)) | E(p85 U p86))) | AG (p87)))))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-10: AG ((((p88 & (p89 | EF (!(p90)))) & p91) | (p92 | (!(!(p93)) | !((p94 | AG (p95)))))))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-11: A(p96 U E(A(false W ((!(EF (p97)) | (!(p98) | AG (p99))))) U AG ((A(false W (p100)) & p101))))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-12: A(false W (E((((((p102 | p103) & AG (p104)) | (EG (p105) | (p106 | p107))) | (EG (p108) | !((p109 | p110)))) & (p111 | A(false W (!(p112))))) U A(A(!(p113) U (p114 | p115)) U (AG (p116) & AF (p117))))))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-13: (E(p118 U AG (AG (E(false W (p119))))) & AF (p120))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-14: AG ((((AG (AF (p121)) | AF (AF (p122))) & E(false W ((E(false W (p123)) & p124)))) | EG (p125)))
+rawFiles_SimpleLoadBal-PT-10-CTLCardinality-15: EG ((p126 & !(AF (!(!((p127 & p128)))))))

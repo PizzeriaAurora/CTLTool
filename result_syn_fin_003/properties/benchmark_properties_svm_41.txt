@@ -1,0 +1,39 @@
+AG p_33
+AG ((A [ (EG !(!(p_37)) & !(!(!(p_37)))) U (A [ (p_37 | p_8) U (p_8 & !(p_8)) ] & !(EF p_37)) ] | AG (EG !(!(p_37)) & !(!(!(p_37))))) -> AF EG p_37)
+(AG ((p_35 | (p_18 | p_35)) -> AF p_18) & AG (p_35 -> AF p_35))
+AF p_31
+AG p_14
+(AF EG AG p_22 -> AF AG !(AF EG p_22))
+p_21
+A [ AG EF !(AF EG (p_2 | (p_22 | p_2))) U (EG EF p_2 | !(AG EF p_22)) ]
+AG (p_7 -> AF p_10)
+(AF EG AF EF p_10 -> EF AG EF (A [ (p_10 | p_7) U (p_10 | p_7) ] | AG (p_10 | p_7)))
+(AG AF AG !(!(!(p_31))) & (A [ (AG EF EG p_31 & AF EG A [ (p_31 & p_31) U (p_17 | p_17) ]) U (AF p_31 | p_31) ] -> AG EF AF EG AF EG A [ (p_17 | p_17) U (p_31 & p_31) ]))
+(EF AF AG !(!(!(p_31))) & (A [ (AG EF EG p_31 & AF EG A [ (p_31 & p_31) U (p_17 | p_17) ]) U (AF p_31 | p_31) ] -> AG EF AF EG AF EG A [ (p_17 | p_17) U (p_31 & p_31) ]))
+AF p_13
+p_30
+AF p_29
+(AG ((p_35 | ((p_18 | p_35) | p_35)) -> AF p_18) & AG (p_35 -> AF p_35))
+AG AF (A [ (!(!(p_12)) | A [ (p_24 & p_24) U (p_12 & p_12) ]) U (!(!(p_24)) | !(!(p_24))) ] | AG (!(!(p_12)) | A [ (p_24 & p_24) U (p_12 & p_12) ]))
+(AG ((p_35 | p_18) -> AF p_18) & AG (p_35 -> AF p_35))
+A [ AG EF !(AF EG ((p_2 | (p_22 | p_2)) | (p_22 | p_2))) U (EG EF p_2 | !(AG EF p_22)) ]
+(AG ((p_35 | (((p_18 | p_35) | p_35) | p_35)) -> AF p_18) & AG (p_35 -> AF p_35))
+AG (p_15 -> AF p_15)
+AG p_23
+A [ AF AF EG AG EF p_6 U (EG EG p_6 | EG AF EG p_28) ]
+(AG (p_35 -> AF p_18) & AG (p_35 -> AF p_35))
+AG (AF (A [ (!((p_34 | p_26)) & (A [ (p_34 | p_34) U (p_34 | p_26) ] | AG (p_34 | p_34))) U ((A [ (p_34 | p_26) U (p_34 | p_34) ] | AG (p_34 | p_26)) | EG !(p_26)) ] | AG (!((p_34 | p_26)) & (A [ (p_34 | p_34) U (p_34 | p_26) ] | AG (p_34 | p_34)))) -> (A [ (AF !(p_26) | !(AG EF !(p_26))) U ((AG EF p_34 | !(p_34)) | AG EF EF !(p_34)) ] | AG (AF !(p_26) | !(AG EF !(p_26)))))
+A [ AG EF !(AF EG (p_2 | p_22)) U (EG EF p_2 | !(AG EF p_22)) ]
+(AF EG EF !(!(p_20)) -> AG EF !((A [ (p_0 | p_20) U (!(p_0) | !(p_20)) ] | AG (p_0 | p_20))))
+(EF AF AG !(!(!(((p_31 | p_17) | p_17)))) & (A [ (AG EF EG p_31 & AF EG A [ (p_31 & p_31) U (p_17 | p_17) ]) U (AF p_31 | p_31) ] -> AG EF AF EG AF EG A [ (p_17 | p_17) U (p_31 & p_31) ]))
+AG p_36
+AG (AF (A [ (!(((p_34 | p_26) | p_26)) & (A [ (p_34 | p_34) U (p_34 | p_26) ] | AG (p_34 | p_34))) U ((A [ (p_34 | p_26) U (p_34 | p_34) ] | AG (p_34 | p_26)) | EG !(p_26)) ] | AG (!(((p_34 | p_26) | p_26)) & (A [ (p_34 | p_34) U (p_34 | p_26) ] | AG (p_34 | p_34)))) -> (A [ (AF !(p_26) | !(AG EF !(p_26))) U ((AG EF p_34 | !(p_34)) | AG EF EF !(p_34)) ] | AG (AF !(p_26) | !(AG EF !(p_26)))))
+AG (AF (A [ (!(p_34) & (A [ (p_34 | p_34) U (p_34 | p_26) ] | AG (p_34 | p_34))) U ((A [ (p_34 | p_26) U (p_34 | p_34) ] | AG (p_34 | p_26)) | EG !(p_26)) ] | AG (!(p_34) & (A [ (p_34 | p_34) U (p_34 | p_26) ] | AG (p_34 | p_34)))) -> (A [ (AF !(p_26) | !(AG EF !(p_26))) U ((AG EF p_34 | !(p_34)) | AG EF EF !(p_34)) ] | AG (AF !(p_26) | !(AG EF !(p_26)))))
+(EF AF AG !(!(!((p_31 | p_17)))) & (A [ (AG EF EG p_31 & AF EG A [ (p_31 & p_31) U (p_17 | p_17) ]) U (AF p_31 | p_31) ] -> AG EF AF EG AF EG A [ (p_17 | p_17) U (p_31 & p_31) ]))
+AF p_25
+A [ AG EF !(AF EG ((p_2 | p_22) | (p_22 | p_2))) U (EG EF p_2 | !(AG EF p_22)) ]
+AG (((p_19 | p_32) | (p_32 | p_19)) -> A [ (EF (A [ (p_32 | p_19) U (p_32 | p_19) ] | AG (p_32 | p_19)) | EF A [ (p_32 | p_19) U (p_32 & p_32) ]) U (A [ (!(p_19) | p_19) U (p_19 & p_32) ] & EG AG EF p_19) ])
+A [ AG EF !(AF EG p_2) U (EG EF p_2 | !(AG EF p_22)) ]
+AG p_5
+AG (AF (A [ (!(((p_34 | (p_26 | p_34)) | p_26)) & (A [ (p_34 | p_34) U (p_34 | p_26) ] | AG (p_34 | p_34))) U ((A [ (p_34 | p_26) U (p_34 | p_34) ] | AG (p_34 | p_26)) | EG !(p_26)) ] | AG (!(((p_34 | (p_26 | p_34)) | p_26)) & (A [ (p_34 | p_34) U (p_34 | p_26) ] | AG (p_34 | p_34)))) -> (A [ (AF !(p_26) | !(AG EF !(p_26))) U ((AG EF p_34 | !(p_34)) | AG EF EF !(p_34)) ] | AG (AF !(p_26) | !(AG EF !(p_26)))))
+AG (AF (A [ (!((((p_34 | p_26) | (p_26 | p_34)) | p_26)) & (A [ (p_34 | p_34) U (p_34 | p_26) ] | AG (p_34 | p_34))) U ((A [ (p_34 | p_26) U (p_34 | p_34) ] | AG (p_34 | p_26)) | EG !(p_26)) ] | AG (!((((p_34 | p_26) | (p_26 | p_34)) | p_26)) & (A [ (p_34 | p_34) U (p_34 | p_26) ] | AG (p_34 | p_34)))) -> (A [ (AF !(p_26) | !(AG EF !(p_26))) U ((AG EF p_34 | !(p_34)) | AG EF EF !(p_34)) ] | AG (AF !(p_26) | !(AG EF !(p_26)))))

@@ -1,0 +1,44 @@
+# --- Class 1: System State & Safety ---
+# Basic AG/AF refinement with interval anti-monotonicity and operator change
+AG[0,500] safe_mode
+AG[0,1000] safe_mode
+AF[0,500] safe_mode
+AG safe_mode
+
+# Nested temporal operators
+AG[0,100] (system_on -> AF[0,10] watchdog_ok)
+AG[0,100] (system_on -> AF[0,20] watchdog_ok)
+
+# Conjunctions and potential cycles
+(AG[0,500] safe_mode & AG[0,100] system_on)
+(AG[0,100] system_on & AG[0,500] safe_mode)
+
+
+# --- Class 2: Request/Response Patterns ---
+# Basic implication and Until operator tests
+AG[0,100000] (request -> AF[0,100000] response)
+AG[0,1000] (request -> AF[0,50] response)
+E[ request U[0,50] response ]
+E[ request U[0,100] response ]
+
+
+
+# --- Class 3: Error Handling ---
+# Negation and disjunction tests
+~(high_pressure & high_temp)
+~high_temp
+~high_pressure
+(~high_pressure | ~high_temp)
+
+
+
+# --- Class 4: Power States ---
+# EG operator tests with interval anti-monotonicity
+EG[0,60] low_power_state
+EG[10,50] low_power_state
+EG[0,30] (low_power_state & ~cpu_active)
+
+
+# --- Class 5: A standalone property ---
+# To test class separation
+AF[0,100] reboot_complete

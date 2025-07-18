@@ -1,0 +1,60 @@
+#1:
+(A(((<a15> true) => (AF(<a26> true))) W (<a16> true)))
+
+#2:
+(A(((<a23> true) => (AG(([a13] false)))) W ((<a9> true) | (<a45> true))))
+
+#3:
+(A(([a26] false) W ((<a31> true) | (<a49> true))))
+
+#4:
+(A(([a15] false) W (<a2> true)))
+
+#5:
+(A(((<a47> true) => (AG(([a56] false)))) W ((<a7> true) | (<a5> true))))
+
+#6:
+(AG((<a5> true) => ((A(([a45] false) W (<a46> true))))))
+
+#7:
+(A(((<a11> true) => (AF(<a5> true))) W (<a55> true)))
+
+#8:
+(A((([a14] false) & ([a18] false)) W ((<a48> true) | (<a2> true))))
+
+#9:
+(A(((<a15> true) => ((A(([a55] false) U (<a31> true))))) W ((<a27> true) | (<a1> true))))
+
+#10:
+(A(([a51] false) W ((<a52> true) | (<a10> true))))
+
+#11:
+(A(((<a16> true) => ((A(([a6] false) U (<a7> true))))) W (<a2> true)))
+
+#12:
+(AG(((<a6> true) => (AF(<a7> true))) & ((<a47> true) => (AG(([a9] false))))))
+
+#13:
+(A(((<a9> true) => (AF(<a4> true))) W (<a7> true)))
+
+#14:
+(A(([a28] false) W ((<a25> true) | (<a5> true))))
+
+#15:
+(A(((<a7> true) => (AG(([a15] false)))) W (<a6> true)))
+
+#16:
+(A((([a8] false) & ([a51] false)) W (<a55> true)))
+
+#17:
+(A(((<a17> true) => ((A(([a44] false) W (<a9> true))))) W ((<a49> true) | (<a13> true))))
+
+#18:
+(A(([a17] false) W ((<a1> true) | (<a3> true))))
+
+#19:
+(AF(A(([a30] false) W (<a55> true))))
+
+#20:
+(A((([a7] false) & ([a24] false)) W (<a57> true)))
+

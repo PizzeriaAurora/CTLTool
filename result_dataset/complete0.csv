@@ -1,0 +1,12 @@
+,TestName,TotalNumberOfProperties,SizeMinimalSet,time
+0,problem101-ctl-properties,20,10,0.2611
+1,problem102-ctl-properties,20,10,0.2119
+2,problem109-ctl-properties,20,13,0.1442
+3,problem104-ctl-properties,20,6,0.1856
+4,problem107-ctl-properties,20,13,0.1151
+5,problem106-ctl-properties,20,11,0.2542
+6,problem108-ctl-properties,20,15,0.2361
+7,problem105-ctl-properties,20,15,0.284
+8,problem103-ctl-properties,20,11,0.2053
+9,T2,28,11,0.2531
+10,NatLang,2030,1837,17.7434
